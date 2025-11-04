@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Freelancer Bidding Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Freelancer Project Portal</h1>
+
+    <!-- Add Project Form -->
+    <div class="form">
+      <input type="text" id="title" placeholder="Project Title" />
+      <input type="text" id="desc" placeholder="Description" />
+      <input type="number" id="budget" placeholder="Budget ($)" />
+      <button onclick="addProject()">Add Project</button>
+    </div>
+
+    <!-- Projects List -->
+    <div id="projects"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
